@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background-card{
+    height: 100vh;
+}
+
+.background{
+    background-image: url("../resources/img/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: right; 
+    height: 100vh;
+}
+
+.detalle-container{
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.detalle{
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.75;
+    position: relative;
+    width: 100%;
+}
+
+.logo-icon{
+    text-align: center;
+    max-width: 200px;
+}

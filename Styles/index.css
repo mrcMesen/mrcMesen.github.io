@@ -1,0 +1,99 @@
+html { height: 100vh; }
+
+body {
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+#header .navbar{
+    background-color: black;
+    opacity: 0.85;
+}
+
+.navbar .btn{
+    background: white;
+    color: black;
+    opacity: 0.85;   
+}
+
+.navbar .btn:hover{
+    opacity: 1;   
+}
+
+.Hero__card{
+    height: 100vh;
+}
+
+.Hero__img{
+    background-image: url("../resources/img/hero-office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: right; 
+    height: 100vh;
+}
+
+.Hero__detalle-container{
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.Hero__detalle{
+    align-items: center;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.75;
+    position: relative;
+    width: 100%;
+}
+
+.Hero__icon{
+    text-align: center;
+    max-width: 200px;
+}
+
+.card{
+    min-height: 380px;
+    border: none;
+    color: white;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.card img{
+    opacity: 1 !important;
+}
+
+.img__bachelor {
+    max-height: 200px;
+}
+
+.wrapper__img-bachelor {
+    text-align: right;
+}
+
+.img__certificate {
+    height: 32px;
+}
+
+
+.footer{
+    background-color: black;
+    opacity: 0.85;
+}
+
+.social-media{
+    color: white;
+    width: 40px;
+}
+
+@media (max-width: 575.98px) { 
+    .wrapper__img-bachelor {
+        text-align: center;
+    }
+}
